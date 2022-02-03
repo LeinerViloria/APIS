@@ -1,0 +1,21 @@
+body{
+    background-color: #061f5877;
+}
+
+a{
+    text-decoration: none;
+    color: #007dc5;
+}
+
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.textBlock{
+    height: 120px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
