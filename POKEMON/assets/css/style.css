@@ -10,6 +10,27 @@
   .header {
     width: 100%;
     z-index: 1;
+  } 
+
+  .pagination{
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .target{
+    background-color: #000000b9;
+    transition: all .3s;
+    color: white;
+  }
+
+  .target:hover{
+    background-color: #050505dc;
+    cursor: pointer;
+  }
+  
+  .page-item a:hover{
+    background-color: #01053ac5;
+    color: #ffffff;
   }
   
   .headerStyle {
@@ -17,6 +38,6 @@
   }
   
   .characters{
-      margin-top: 140px;
+      margin-top: 80px;
       margin-block-end: 60px;
   }
